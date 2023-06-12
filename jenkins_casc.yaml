@@ -23,7 +23,7 @@ jenkins:
       launcher:
         ssh:
           credentialsId: "ubuntu"
-          host: "10.0.1.181"
+          host: "184.72.180.160"
           port: 22
           sshHostKeyVerificationStrategy: "nonVerifyingKeyVerificationStrategy"
       name: "node1"
