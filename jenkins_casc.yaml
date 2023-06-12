@@ -44,9 +44,9 @@ jenkins:
       allowsSignup: false
       enableCaptcha: false
       users:
-      - id: "artem"
+      - id: "israel"
         password: ${JENKINS_ADMIN_PASSWORD}
-        name: "Artem Utkin"
+        name: "Israel Geoffrey"
         properties:
         - "myView"
         - "timezone"
@@ -86,10 +86,10 @@ unclassified:
     fingerprintCleanupDisabled: false
     storage: "file"
   gitHubPluginConfig:
-    hookUrl: "https://ihantala.link/github-webhook/"
+    hookUrl: "https://israeltrello.be/github-webhook/"
   location:
     adminAddress: "address not configured yet <nobody@nowhere>"
-    url: "https://ihantala.link/"
+    url: "https://israeltrello.be/"
   mailer:
     charset: "UTF-8"
     useSsl: false
